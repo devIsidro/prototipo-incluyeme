@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qué Hacemos | Inclúyeme en tu Mundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/que-hacemos.css" />
+
+    <!-- Scripts -->
+    <script src="js/global.js" defer></script>
+    <script src="js/que-hacemos.js" defer></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= HEADER PRINCIPAL ================= -->
+    <header>
+      <!-- Wrapper general de navegación (top bar + menú principal) -->
+      <div class="navigation-wrapper">
+        <!-- ======== BARRA SUPERIOR (CONTACTO Y REDES) ======== -->
+        <div class="top-bar">
+          <div class="container top-bar-container">
+            <!-- Contenedor de contacto y redes sociales -->
+            <div class="contact-wrapper">
+              <!-- Información de contacto directa -->
+              <div class="contact-info">
+                <!-- Enlace a WhatsApp -->
+                <a
+                  href="https://wa.me/5219931494913"
+                  class="whatsapp-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="icons/whatsapp-color.svg" alt="WhatsApp" />
+                  <span>+52 9931494913</span>
+                </a>
+
+                <!-- Enlace para enviar correo -->
+                <a
+                  href="mailto:contacto@incluyemeentumundo.org"
+                  class="email-link"
+                >
+                  <img src="icons/mail-color.svg" alt="Correo" />
+                  <span>contacto@incluyemeentumundo.org</span>
+                </a>
+              </div>
+
+              <!-- Iconos de redes sociales -->
+              <div class="social-icons">
+                <!-- Instagram -->
+                <a
+                  href="https://www.instagram.com/incluyemeentumundo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a
+                  href="https://es-la.facebook.com/incluyemeentumundoac/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a
+                  href="https://www.youtube.com/@incluyeme"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Canal de YouTube de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+
+                <!-- WhatsApp (acceso rápido) -->
+                <a
+                  href="https://wa.me/5219931494913"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Enviar mensaje por WhatsApp a Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- TikTok -->
+                <a
+                  href="https://www.tiktok.com/@incluyemeentumundo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="TikTok de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-tiktok"></i>
+                </a>
+
+                <!-- Ubicación en Google Maps -->
+                <a
+                  href="https://maps.app.goo.gl/1Pju8fS2awf7P4PY7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ubicación en Google Maps de Inclúyeme en tu Mundo"
+                >
+                  <i class="fa fa-map-marker"></i>
+                </a>
+
+                <!-- Correo directo -->
+                <a
+                  href="mailto:contacto@incluyemeentumundo.org"
+                  aria-label="Enviar correo a Inclúyeme en tu Mundo"
+                >
+                  <i class="fa fa-envelope"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a
+                  href="https://twitter.com/incluyemetmundo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/incluyemeentumundo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Botones de acción (donación e inicio de sesión) -->
+            <div class="auth-buttons">
+              <!-- Botón para donaciones -->
+              <a href="donar.html" class="donate-button"> Donar </a>
+
+              <!-- Botón de login -->
+              <a
+                href="https://incluyemeentumundo.org/api/views/login_usuario.php"
+                class="login-button"
+              >
+                Iniciar sesión
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======== MENÚ PRINCIPAL DE NAVEGACIÓN ======== -->
+        <nav id="menu" aria-label="Navegación principal">
+          <div class="container">
+            <!-- Logo / Marca -->
+            <div class="navbar-brand">
+              <a href="index.html">
+                <img
+                  src="img/logo.png"
+                  alt="Inclúyeme en tu Mundo"
+                  class="navbar-logo"
+                />
+              </a>
+            </div>
+
+            <!-- Botón hamburguesa para móviles -->
+            <button
+              class="mobile-toggle"
+              aria-expanded="false"
+              aria-label="Mostrar u ocultar menú"
+              onclick="toggleMobileMenu()"
+            >
+              ☰
+            </button>
+
+            <!-- Lista de enlaces de navegación -->
+            <ul class="navbar-nav" id="navbarNav">
+              <!-- Página principal -->
+              <li>
+                <a href="index.html" onclick="handleLinkClick()">
+                  INCLÚYEME EN TU MUNDO
+                </a>
+              </li>
+
+              <!-- Sección Autismo -->
+              <li>
+                <a href="autismo.html" onclick="handleLinkClick()"> Autismo </a>
+              </li>
+
+              <!-- Sección TDAH -->
+              <li>
+                <a href="tdah.html" onclick="handleLinkClick()"> TDAH </a>
+              </li>
+
+              <!-- Qué hacemos -->
+              <li>
+                <a href="que-hacemos.html" onclick="handleLinkClick()">
+                  Qué Hacemos
+                </a>
+              </li>
+
+              <!-- Quiénes somos -->
+              <li>
+                <a href="quienes-somos.html" onclick="handleLinkClick()">
+                  Quiénes Somos
+                </a>
+              </li>
+
+              <!-- Elemento visual decorativo (personaje) -->
+              <li class="personaje-navbar-wrapper">
+                <img
+                  src="img/personaje-1.png"
+                  alt=""
+                  class="personaje-navbar"
+                />
+              </li>
+
+              <!-- Blog -->
+              <li>
+                <a href="blog.html" onclick="handleLinkClick()"> Blog </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <!-- SLIDES: las 6 imágenes -->
+      <div class="carousel-slide">
+        <a href="autismo.html">
+          <img
+            src="img/carrusel-1.png"
+            alt="Información sobre autismo y apoyo a familias"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="tdah.html">
+          <img
+            src="img/carrusel-2.png"
+            alt="Información sobre TDAH y acompañamiento a niños y jóvenes"
+          />
+        </a>
+      </div>
+      <div class="carousel-slide active">
+        <a href="que-hacemos.html">
+          <img
+            src="img/carrusel-3.png"
+            alt="Servicios y programas de Inclúyeme en tu Mundo"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="quienes-somos.html">
+          <img
+            src="img/carrusel-4.png"
+            alt="Historia y misión de Inclúyeme en tu Mundo"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="donar.html">
+          <img
+            src="img/carrusel-5.png"
+            alt="Opciones para donar y apoyar la causa"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="blog.html">
+          <img
+            src="img/carrusel-6.png"
+            alt="Artículos y contenido del blog sobre inclusión y desarrollo"
+          />
+        </a>
+      </div>
+
+      <!-- Fechas -->
+      <button class="carousel-btn prev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" /></svg>
+      </button>
+      <button class="carousel-btn next" aria-label="Siguiente">
+        <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18" /></svg>
+      </button>
+
+      <!-- Dots -->
+      <div class="carousel-dots" aria-label="Indicadores de diapositiva">
+        <button class="carousel-dot active" aria-label="Ir al slide 1"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 2"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 3"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 4"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 5"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 6"></button>
+      </div>
+    </section>
+
+    <div class="que-hacemos-page">
+      <!-- ===== MISIÓN ===== -->
+      <section class="mision-section" id="mision">
+        <div class="mision-inner">
+          <!-- Visual -->
+          <div class="mision-visual">
+            <div class="mision-ring"></div>
+            <div class="mision-ring-2"></div>
+            <div class="mision-img-wrap">
+              <img
+                src="img/que-hacemos-1.png"
+                alt="Nuestra misión — Inclúyeme en tu Mundo"
+                style="
+                  width: 100%;
+                  height: 420px;
+                  object-fit: cover;
+                  display: block;
+                  border-radius: 28px;
+                  box-shadow: 0 20px 60px rgba(0, 51, 102, 0.12);
+                  transition: transform 0.5s cubic-bezier(0.22, 0.68, 0, 1.2);
+                "
+              />
+            </div>
+            <div class="mision-badge">
+              <div class="mision-badge__icon">❤️</div>
+              <div class="mision-badge__text">
+                <strong>Inclusión</strong>
+                <span>en todas las edades</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="mision-content">
+            <span class="section-eyebrow">01 · Lo que nos mueve</span>
+            <h2 class="section-title">Nuestra <em>misión</em></h2>
+            <p class="section-text">
+              Contribuir a mejorar la calidad de vida de personas y grupos
+              vulnerables mediante el esfuerzo conjunto, a fin de coadyuvar en
+              la erradicación de la discriminación, la pobreza y la exclusión
+              social.
+            </p>
+            <p class="section-text">
+              Promovemos oportunidades educativas equitativas e incluyentes
+              vinculados con organizaciones civiles, instituciones educativas y
+              gubernamentales; favoreciendo el desarrollo sostenible, acceso a
+              la justicia e inclusión social para el bienestar común en todas
+              las edades.
+            </p>
+            <div class="keyword-chips">
+              <span class="chip"
+                ><span class="chip-dot"></span>Inclusión social</span
+              >
+              <span class="chip"
+                ><span class="chip-dot"></span>Equidad educativa</span
+              >
+              <span class="chip"
+                ><span class="chip-dot"></span>Bienestar común</span
+              >
+              <span class="chip"
+                ><span class="chip-dot"></span>Desarrollo sostenible</span
+              >
+              <span class="chip"
+                ><span class="chip-dot"></span>Acceso a la justicia</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== DIVIDER ===== -->
+      <div class="section-break">
+        <div class="section-break__line"></div>
+        <div
+          class="section-break__icon"
+          id="divider-icon-wrap"
+          style="
+            overflow: hidden;
+            cursor: pointer;
+            padding: 0;
+            position: relative;
+          "
+        >
+          <img
+            id="divider-img"
+            src=""
+            alt=""
+            style="
+              display: none;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 50%;
+            "
+          />
+          <span
+            id="divider-placeholder"
+            title="Cargar imagen"
+            style="
+              font-size: 1.2rem;
+              color: var(--muted);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 100%;
+              height: 100%;
+            "
+            >＋</span
+          >
+          <input
+            type="file"
+            id="divider-upload"
+            accept="image/*"
+            style="display: none"
+          />
+        </div>
+        <div class="section-break__line"></div>
+      </div>
+
+      <!-- ===== VISIÓN ===== -->
+      <section class="vision-section" id="vision">
+        <div class="vision-inner">
+          <!-- Content left -->
+          <div class="vision-content">
+            <span class="section-eyebrow">02 · Hacia dónde vamos</span>
+            <h2 class="section-title">Nuestra <em>visión</em></h2>
+            <p class="section-text">
+              En Inclúyeme en tu Mundo, A.C. somos una organización con una
+              amplia visión humanitaria, comprometida con las causas de los
+              grupos vulnerables y el bienestar social.
+            </p>
+            <p class="section-text">
+              Orientada hacia una nueva cultura de participación y
+              corresponsabilidad ciudadana bajo estrategias y enfoques de
+              impacto local, nacional e internacional.
+            </p>
+
+            <ul class="vision-values">
+              <li>
+                <span class="vv-icon">🌍</span>
+                Impacto local, nacional e internacional alineado a la
+                <strong>Agenda 2030</strong>
+              </li>
+              <li>
+                <span class="vv-icon">🤝</span>
+                Nueva cultura de participación y
+                <strong>corresponsabilidad ciudadana</strong>
+              </li>
+              <li>
+                <span class="vv-icon">🎯</span>
+                Estrategias alineadas a los
+                <strong>Objetivos de Desarrollo Sostenible (ODS)</strong>
+              </li>
+            </ul>
+
+            <div class="ods-strip">
+              <span class="ods-strip__icon">🌐</span>
+              <p class="ods-strip__text">
+                Alineados a los
+                <strong>Objetivos del Desarrollo Sostenible (ODS)</strong> de la
+                <strong>Agenda 2030</strong> de las Naciones Unidas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Visual right -->
+          <div class="vision-visual">
+            <div class="vision-ring"></div>
+            <div class="vision-ring-2"></div>
+            <img
+              src="img/que-hacemos-2.png"
+              alt="Nuestra visión — Inclúyeme en tu Mundo"
+              style="
+                width: 100%;
+                height: 380px;
+                object-fit: cover;
+                display: block;
+                border-radius: 28px;
+                box-shadow: 0 20px 60px rgba(0, 51, 102, 0.12);
+                transition: transform 0.5s cubic-bezier(0.22, 0.68, 0, 1.2);
+              "
+            />
+            <div class="vision-badge">
+              <div class="vision-badge__icon">🌐</div>
+              <div class="vision-badge__text">
+                <strong>Agenda 2030</strong>
+                <span>ODS alineados</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PILLARS ===== -->
+      <section class="pillars-section">
+        <div class="pillars-header">
+          <span class="eyebrow-white">Nuestros pilares</span>
+          <h2>Lo que nos <span>define</span></h2>
+        </div>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <span class="pillar-card__emoji">🏛️</span>
+            <h3 class="pillar-card__title">Organizaciones civiles</h3>
+            <p class="pillar-card__desc">
+              Colaboramos con redes de organizaciones para ampliar nuestro
+              alcance e impacto comunitario.
+            </p>
+          </div>
+          <div class="pillar-card">
+            <span class="pillar-card__emoji">🏫</span>
+            <h3 class="pillar-card__title">Instituciones educativas</h3>
+            <p class="pillar-card__desc">
+              Trabajamos de la mano con escuelas para crear entornos inclusivos
+              en todos los niveles.
+            </p>
+          </div>
+          <div class="pillar-card">
+            <span class="pillar-card__emoji">⚖️</span>
+            <h3 class="pillar-card__title">Instituciones gubernamentales</h3>
+            <p class="pillar-card__desc">
+              Vinculamos esfuerzos con el gobierno para favorecer el acceso a la
+              justicia y bienestar social.
+            </p>
+          </div>
+          <div class="pillar-card">
+            <span class="pillar-card__emoji">🌱</span>
+            <h3 class="pillar-card__title">Desarrollo sostenible</h3>
+            <p class="pillar-card__desc">
+              Cada acción está orientada a generar un impacto positivo y
+              duradero en la comunidad.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== NUESTROS VALORES ===== -->
+      <div style="background: var(--bg); padding: 0 24px; margin-top: 64px">
+        <img
+          src="img/nuestros-valores.png"
+          alt="Nuestros valores — Inclúyeme en tu Mundo"
+          style="
+            display: block;
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 20px;
+            box-shadow: 0 16px 48px rgba(0, 51, 102, 0.12);
+            transition:
+              transform 0.4s cubic-bezier(0.22, 0.68, 0, 1.2),
+              box-shadow 0.4s;
+          "
+        />
+      </div>
+
+      <!-- ===== CTA ===== -->
+      <section class="cta-section">
+        <div class="cta-box">
+          <span class="cta-icon">💛</span>
+          <h2>Sé parte del cambio</h2>
+          <p>
+            Juntos podemos construir una sociedad más equitativa e incluyente.
+            Conoce cómo colaborar con nuestra misión.
+          </p>
+          <div class="cta-btns">
+            <a href="servicios.html" class="btn-primary">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 8v4l3 3" />
+              </svg>
+              Ver nuestros servicios
+            </a>
+            <a href="donar.html" class="btn-outline">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
+                />
+              </svg>
+              Apoyar nuestra causa
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /que-hacemos-page -->
+
+    <!-- SPONSOR CAROUSEL -->
+    <section class="sponsors-section">
+      <div class="sponsors-header">
+        <span class="sponsors-eyebrow">Comunidad & Apoyo</span>
+        <div class="sponsors-gold-bar"></div>
+        <h2 class="sponsors-title">Nuestros Aliados Destacados</h2>
+        <p class="sponsors-subtitle">
+          Instituciones, empresas y personas que creen en la inclusión y hacen
+          posible nuestra labor en Villahermosa.
+        </p>
+      </div>
+
+      <div class="sponsors-track-wrap">
+        <div class="sponsors-track">
+          <img src="img/logos/donantes_00.png" alt="Aliado" />
+          <img src="img/logos/donantes_01.png" alt="Aliado" />
+          <img src="img/logos/donantes_02.png" alt="Aliado" />
+          <img src="img/logos/donantes_03.png" alt="Aliado" />
+          <img src="img/logos/donantes_04.png" alt="Aliado" />
+          <img src="img/logos/donantes_05.png" alt="Aliado" />
+          <img src="img/logos/donantes_06.png" alt="Aliado" />
+          <img src="img/logos/donantes_07.png" alt="Aliado" />
+          <img src="img/logos/donantes_08.png" alt="Aliado" />
+          <img src="img/logos/donantes_09.png" alt="Aliado" />
+          <img src="img/logos/donantes_10.png" alt="Aliado" />
+          <img src="img/logos/donantes_11.png" alt="Aliado" />
+          <img src="img/logos/donantes_12.png" alt="Aliado" />
+          <img src="img/logos/donantes_13.png" alt="Aliado" />
+          <img src="img/logos/donantes_14.png" alt="Aliado" />
+          <img src="img/logos/donantes_15.png" alt="Aliado" />
+          <img src="img/logos/donantes_16.png" alt="Aliado" />
+          <img src="img/logos/donantes_17.png" alt="Aliado" />
+          <img src="img/logos/donantes_18.png" alt="Aliado" />
+          <img src="img/logos/donantes_19.png" alt="Aliado" />
+          <img src="img/logos/donantes_20.png" alt="Aliado" />
+          <img src="img/logos/donantes_21.png" alt="Aliado" />
+          <img src="img/logos/donantes_22.png" alt="Aliado" />
+          <img src="img/logos/donantes_23.png" alt="Aliado" />
+          <img src="img/logos/donantes_24.png" alt="Aliado" />
+
+          <!-- Duplicado para loop infinito -->
+          <img src="img/logos/donantes_00.png" alt="Aliado" />
+          <img src="img/logos/donantes_01.png" alt="Aliado" />
+          <img src="img/logos/donantes_02.png" alt="Aliado" />
+          <img src="img/logos/donantes_03.png" alt="Aliado" />
+          <img src="img/logos/donantes_04.png" alt="Aliado" />
+          <img src="img/logos/donantes_05.png" alt="Aliado" />
+          <img src="img/logos/donantes_06.png" alt="Aliado" />
+          <img src="img/logos/donantes_07.png" alt="Aliado" />
+          <img src="img/logos/donantes_08.png" alt="Aliado" />
+          <img src="img/logos/donantes_09.png" alt="Aliado" />
+          <img src="img/logos/donantes_10.png" alt="Aliado" />
+          <img src="img/logos/donantes_11.png" alt="Aliado" />
+          <img src="img/logos/donantes_12.png" alt="Aliado" />
+          <img src="img/logos/donantes_13.png" alt="Aliado" />
+          <img src="img/logos/donantes_14.png" alt="Aliado" />
+          <img src="img/logos/donantes_15.png" alt="Aliado" />
+          <img src="img/logos/donantes_16.png" alt="Aliado" />
+          <img src="img/logos/donantes_17.png" alt="Aliado" />
+          <img src="img/logos/donantes_18.png" alt="Aliado" />
+          <img src="img/logos/donantes_19.png" alt="Aliado" />
+          <img src="img/logos/donantes_20.png" alt="Aliado" />
+          <img src="img/logos/donantes_21.png" alt="Aliado" />
+          <img src="img/logos/donantes_22.png" alt="Aliado" />
+          <img src="img/logos/donantes_23.png" alt="Aliado" />
+          <img src="img/logos/donantes_24.png" alt="Aliado" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER GLOBAL ================= -->
+    <footer role="contentinfo">
+      <!-- Wrapper principal del footer -->
+      <div class="footer-container">
+        <!-- ======== COLUMNA: ENLACES DE NAVEGACIÓN ======== -->
+        <nav class="footer-links" aria-label="Enlaces rápidos del sitio">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="que-hacemos.html">Qué Hacemos</a></li>
+            <li><a href="que-es-autismo.html">Qué es el Autismo</a></li>
+            <li><a href="donar.html">Donar</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+
+        <!-- ======== COLUMNA: REDES SOCIALES ======== -->
+        <section class="footer-social" aria-label="Redes sociales">
+          <h3>Síguenos</h3>
+
+          <!-- Iconos de redes -->
+          <div class="social-icons">
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/incluyemeentumundoac/"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar Facebook"
+            >
+              <img src="icons/facebook.svg" alt="" />
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/incluyemeentumundo/"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar Instagram"
+            >
+              <img src="icons/instagram.svg" alt="" />
+            </a>
+
+            <!-- X (Twitter) -->
+            <a
+              href="https://x.com/incluyemetmundo"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar perfil en X"
+            >
+              <img src="icons/x.svg" alt="" />
+            </a>
+
+            <!-- YouTube -->
+            <a
+              href="https://www.youtube.com/@incluyeme/videos"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Ver canal de YouTube"
+            >
+              <img src="icons/youtube.svg" alt="" />
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/incluyemeentumundo/"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar LinkedIn"
+            >
+              <img src="icons/linkedin.svg" alt="" />
+            </a>
+
+            <!-- TikTok -->
+            <a
+              href="https://www.tiktok.com/@incluyemeentumundo"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Ver contenido en TikTok"
+            >
+              <img src="icons/tiktok.svg" alt="" />
+            </a>
+          </div>
+        </section>
+
+        <!-- ======== COLUMNA: CONTACTO DIRECTO ======== -->
+        <section class="footer-contact" aria-label="Contacto directo">
+          <h3>Contacto</h3>
+
+          <div class="contact-icons">
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/529931494913"
+              target="_blank"
+              rel="noopener noreferrer external"
+              class="contact-item"
+              aria-label="Enviar mensaje por WhatsApp"
+            >
+              <span class="icon-wrap">
+                <img src="icons/whatsapp.svg" alt="" />
+              </span>
+              WhatsApp
+            </a>
+
+            <!-- Correo -->
+            <a
+              href="mailto:contacto@incluyemeentumundo.org"
+              class="contact-item"
+              aria-label="Enviar correo electrónico"
+            >
+              <span class="icon-wrap">
+                <img src="icons/email.svg" alt="" />
+              </span>
+              Correo electrónico
+            </a>
+
+            <!-- Ubicación / ruta -->
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=17.9842652,-92.9225942"
+              target="_blank"
+              rel="noopener noreferrer external"
+              class="contact-item"
+              aria-label="Abrir ruta en Google Maps"
+            >
+              <span class="icon-wrap">
+                <img src="icons/googlemaps.svg" alt="" />
+              </span>
+              Cómo llegar
+            </a>
+          </div>
+        </section>
+
+        <!-- ======== COLUMNA: INFORMACIÓN LEGAL ======== -->
+        <section class="footer-legal-col" aria-label="Información legal">
+          <h3>Legal</h3>
+
+          <ul>
+            <li><a href="#" class="no-click">Transparencia</a></li>
+            <li><a href="#" class="no-click">Términos y Condiciones</a></li>
+            <li><a href="#" class="no-click">Política de Cookies</a></li>
+            <li><a href="#" class="no-click">Aviso de Privacidad</a></li>
+          </ul>
+
+          <!-- CTA: Donación -->
+          <a
+            href="donar.html"
+            class="footer-donate-btn"
+            aria-label="Donar ahora"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 21.593c-.425-.396-8.993-7.677-8.993-12.03A6.007 6.007 0 0 1 12 3.564a6.007 6.007 0 0 1 8.993 6C20.993 13.916 12.425 21.197 12 21.593z"
+              />
+            </svg>
+            Donar ahora
+          </a>
+        </section>
+
+        <!-- ======== LOGO INSTITUCIONAL ======== -->
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Logo de Inclúyeme en tu Mundo" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ======== BARRA INFERIOR (COPYRIGHT) ======== -->
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Inclúyeme en tu Mundo A.C. Todos los derechos reservados.
+        </p>
+        <p>
+          Desarrollado por el equipo de Inclúyeme en tu Mundo en colaboración
+          con la comunidad.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,924 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TDAH | Inclúyeme en tu Mundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/tdah.css" />
+
+    <!-- Scripts -->
+    <script src="js/global.js" defer></script>
+    <script src="js/tdah.js" defer></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= HEADER PRINCIPAL ================= -->
+    <header>
+      <!-- Wrapper general de navegación (top bar + menú principal) -->
+      <div class="navigation-wrapper">
+        <!-- ======== BARRA SUPERIOR (CONTACTO Y REDES) ======== -->
+        <div class="top-bar">
+          <div class="container top-bar-container">
+            <!-- Contenedor de contacto y redes sociales -->
+            <div class="contact-wrapper">
+              <!-- Información de contacto directa -->
+              <div class="contact-info">
+                <!-- Enlace a WhatsApp -->
+                <a
+                  href="https://wa.me/5219931494913"
+                  class="whatsapp-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="icons/whatsapp-color.svg" alt="WhatsApp" />
+                  <span>+52 9931494913</span>
+                </a>
+
+                <!-- Enlace para enviar correo -->
+                <a
+                  href="mailto:contacto@incluyemeentumundo.org"
+                  class="email-link"
+                >
+                  <img src="icons/mail-color.svg" alt="Correo" />
+                  <span>contacto@incluyemeentumundo.org</span>
+                </a>
+              </div>
+
+              <!-- Iconos de redes sociales -->
+              <div class="social-icons">
+                <!-- Instagram -->
+                <a
+                  href="https://www.instagram.com/incluyemeentumundo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a
+                  href="https://es-la.facebook.com/incluyemeentumundoac/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a
+                  href="https://www.youtube.com/@incluyeme"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Canal de YouTube de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+
+                <!-- WhatsApp (acceso rápido) -->
+                <a
+                  href="https://wa.me/5219931494913"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Enviar mensaje por WhatsApp a Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- TikTok -->
+                <a
+                  href="https://www.tiktok.com/@incluyemeentumundo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="TikTok de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-tiktok"></i>
+                </a>
+
+                <!-- Ubicación en Google Maps -->
+                <a
+                  href="https://maps.app.goo.gl/1Pju8fS2awf7P4PY7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ubicación en Google Maps de Inclúyeme en tu Mundo"
+                >
+                  <i class="fa fa-map-marker"></i>
+                </a>
+
+                <!-- Correo directo -->
+                <a
+                  href="mailto:contacto@incluyemeentumundo.org"
+                  aria-label="Enviar correo a Inclúyeme en tu Mundo"
+                >
+                  <i class="fa fa-envelope"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a
+                  href="https://twitter.com/incluyemetmundo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/incluyemeentumundo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn de Inclúyeme en tu Mundo"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Botones de acción (donación e inicio de sesión) -->
+            <div class="auth-buttons">
+              <!-- Botón para donaciones -->
+              <a href="donar.html" class="donate-button"> Donar </a>
+
+              <!-- Botón de login -->
+              <a
+                href="https://incluyemeentumundo.org/api/views/login_usuario.php"
+                class="login-button"
+              >
+                Iniciar sesión
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======== MENÚ PRINCIPAL DE NAVEGACIÓN ======== -->
+        <nav id="menu" aria-label="Navegación principal">
+          <div class="container">
+            <!-- Logo / Marca -->
+            <div class="navbar-brand">
+              <a href="index.html">
+                <img
+                  src="img/logo.png"
+                  alt="Inclúyeme en tu Mundo"
+                  class="navbar-logo"
+                />
+              </a>
+            </div>
+
+            <!-- Botón hamburguesa para móviles -->
+            <button
+              class="mobile-toggle"
+              aria-expanded="false"
+              aria-label="Mostrar u ocultar menú"
+              onclick="toggleMobileMenu()"
+            >
+              ☰
+            </button>
+
+            <!-- Lista de enlaces de navegación -->
+            <ul class="navbar-nav" id="navbarNav">
+              <!-- Página principal -->
+              <li>
+                <a href="index.html" onclick="handleLinkClick()">
+                  INCLÚYEME EN TU MUNDO
+                </a>
+              </li>
+
+              <!-- Sección Autismo -->
+              <li>
+                <a href="autismo.html" onclick="handleLinkClick()"> Autismo </a>
+              </li>
+
+              <!-- Sección TDAH -->
+              <li>
+                <a href="tdah.html" onclick="handleLinkClick()"> TDAH </a>
+              </li>
+
+              <!-- Qué hacemos -->
+              <li>
+                <a href="que-hacemos.html" onclick="handleLinkClick()">
+                  Qué Hacemos
+                </a>
+              </li>
+
+              <!-- Quiénes somos -->
+              <li>
+                <a href="quienes-somos.html" onclick="handleLinkClick()">
+                  Quiénes Somos
+                </a>
+              </li>
+
+              <!-- Elemento visual decorativo (personaje) -->
+              <li class="personaje-navbar-wrapper">
+                <img
+                  src="img/personaje-1.png"
+                  alt=""
+                  class="personaje-navbar"
+                />
+              </li>
+
+              <!-- Blog -->
+              <li>
+                <a href="blog.html" onclick="handleLinkClick()"> Blog </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <!-- SLIDES: las 6 imágenes -->
+      <div class="carousel-slide">
+        <a href="autismo.html">
+          <img
+            src="img/carrusel-1.png"
+            alt="Información sobre autismo y apoyo a familias"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide active">
+        <a href="tdah.html">
+          <img
+            src="img/carrusel-2.png"
+            alt="Información sobre TDAH y acompañamiento a niños y jóvenes"
+          />
+        </a>
+      </div>
+      <div class="carousel-slide">
+        <a href="que-hacemos.html">
+          <img
+            src="img/carrusel-3.png"
+            alt="Servicios y programas de Inclúyeme en tu Mundo"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="quienes-somos.html">
+          <img
+            src="img/carrusel-4.png"
+            alt="Historia y misión de Inclúyeme en tu Mundo"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="donar.html">
+          <img
+            src="img/carrusel-5.png"
+            alt="Opciones para donar y apoyar la causa"
+          />
+        </a>
+      </div>
+
+      <div class="carousel-slide">
+        <a href="blog.html">
+          <img
+            src="img/carrusel-6.png"
+            alt="Artículos y contenido del blog sobre inclusión y desarrollo"
+          />
+        </a>
+      </div>
+
+      <!-- Fechas -->
+      <button class="carousel-btn prev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" /></svg>
+      </button>
+      <button class="carousel-btn next" aria-label="Siguiente">
+        <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18" /></svg>
+      </button>
+
+      <!-- Dots -->
+      <div class="carousel-dots" aria-label="Indicadores de diapositiva">
+        <button class="carousel-dot active" aria-label="Ir al slide 1"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 2"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 3"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 4"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 5"></button>
+        <button class="carousel-dot" aria-label="Ir al slide 6"></button>
+      </div>
+    </section>
+
+    <!-- =============================================
+     INTRO
+============================================= -->
+    <section class="tdah-intro">
+      <div class="tdah-intro__inner">
+        <!-- Contenido -->
+        <div class="tdah-intro__content">
+          <span class="section-eyebrow">Neurodesarrollo · Información</span>
+          <div class="gold-bar"></div>
+          <h1 class="tdah-intro__title">
+            Trastorno por Déficit de Atención e <em>Hiperactividad</em>
+          </h1>
+          <p class="tdah-intro__text">
+            El TDAH es uno de los trastornos del neurodesarrollo más comunes en
+            la infancia. Afecta la capacidad de atención, el control de impulsos
+            y el nivel de actividad, impactando la vida escolar, familiar y
+            social del niño o joven.
+          </p>
+          <p class="tdah-intro__text">
+            En Inclúyeme en tu Mundo acompañamos a familias con información
+            actualizada, atención especializada y herramientas prácticas para
+            enfrentar el TDAH con confianza.
+          </p>
+
+          <div class="tdah-stats">
+            <div class="tdah-stat">
+              <span class="tdah-stat__num"
+                ><span>5</span>–<span>10%</span></span
+              >
+              <span class="tdah-stat__label">Niños en edad escolar</span>
+            </div>
+            <div class="tdah-stat">
+              <span class="tdah-stat__num"><span>3</span></span>
+              <span class="tdah-stat__label">Tipos de TDAH</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual -->
+        <div class="tdah-intro__visual">
+          <div
+            class="tdah-ring"
+            style="top: -28px; right: -28px; width: 120px; height: 120px"
+          ></div>
+          <div
+            class="tdah-ring"
+            style="
+              bottom: -18px;
+              left: -18px;
+              width: 72px;
+              height: 72px;
+              border-color: rgba(74, 144, 226, 0.18);
+              animation-duration: 6s;
+              animation-direction: reverse;
+              border-width: 2px;
+            "
+          ></div>
+          <img
+            class="tdah-intro__img"
+            src="img/gallery-8.jpg"
+            alt="Atención terapéutica para TDAH — Inclúyeme en tu Mundo"
+          />
+          <div class="tdah-badge">
+            <div class="tdah-badge__icon">🧠</div>
+            <div class="tdah-badge__text">
+              <strong>Atención especializada</strong>
+              <span>en neurodesarrollo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     ACCORDION
+============================================= -->
+    <section class="tdah-accordion-section" id="informacion">
+      <div class="tdah-accordion-section__inner">
+        <div class="tdah-accordion-section__header">
+          <span class="section-eyebrow">Todo lo que necesitas saber</span>
+          <div class="gold-bar gold-bar--center"></div>
+          <h2>Guía completa sobre el <span>TDAH</span></h2>
+          <p>
+            Selecciona cualquier sección para conocer más. Toda la información
+            está pensada para padres, cuidadores y docentes.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <!-- 1. Definición -->
+          <details open>
+            <summary>
+              <img src="icons/info.svg" alt="" class="icon" />
+              Definición y características
+            </summary>
+            <div class="content">
+              <p>
+                El TDAH es un trastorno del neurodesarrollo que afecta la
+                atención, el control de impulsos y la actividad motora.
+              </p>
+              <ul>
+                <li>
+                  <img src="icons/running.svg" alt="" class="icon-inline" />
+                  <span
+                    ><strong>Hiperactividad:</strong> movimiento constante,
+                    dificultad para permanecer sentado, hablar en exceso.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/bolt.svg" alt="" class="icon-inline" />
+                  <span
+                    ><strong>Impulsividad:</strong> actuar sin pensar,
+                    interrumpir conversaciones, dificultad para esperar
+                    turnos.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/warning.svg" alt="" class="icon-inline" />
+                  <span
+                    ><strong>Desatención:</strong> dificultad para concentrarse,
+                    completar tareas o seguir instrucciones.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- 2. Consejos para padres -->
+          <details>
+            <summary>
+              <img src="icons/lightbulb.svg" alt="" class="icon" />
+              Consejos para padres
+            </summary>
+            <div class="content">
+              <ul>
+                <li>
+                  <img src="icons/calendar.svg" alt="" class="icon-inline" />
+                  <span
+                    >Establece horarios claros y consistentes para las
+                    actividades diarias del niño.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/pause.svg" alt="" class="icon-inline" />
+                  <span
+                    >Fomenta descansos regulares para que tu hijo se mantenga
+                    enfocado durante tareas largas.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/info.svg" alt="" class="icon-inline" />
+                  <span
+                    >Proporciona instrucciones simples y claras, una a la
+                    vez.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/like.svg" alt="" class="icon-inline" />
+                  <span
+                    >Refuerza positivamente los logros y comportamientos
+                    deseados con elogios específicos.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/help.svg" alt="" class="icon-inline" />
+                  <span
+                    >Sé paciente y busca apoyo profesional cuando sea
+                    necesario.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- 3. Recursos útiles -->
+          <details>
+            <summary>
+              <img src="icons/link.svg" alt="" class="icon" />
+              Recursos útiles
+            </summary>
+            <div class="content">
+              <ul>
+                <li>
+                  <img src="icons/guide.svg" alt="" class="icon-inline" />
+                  <a
+                    href="https://childmind.org/es/guia/guia-para-padres-sobre-el-tdah/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Guía sobre el TDAH para padres — Child Mind Institute
+                  </a>
+                </li>
+                <li>
+                  <img src="icons/world.svg" alt="" class="icon-inline" />
+                  <a
+                    href="https://www.cdc.gov/adhd/es/articles/que-es-el-trastorno-por-deficit-de-atencion-e-hiperactividad-tdah.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Centros para el Control y la Prevención de Enfermedades
+                    (CDC)
+                  </a>
+                </li>
+                <li>
+                  <img src="icons/lightbulb.svg" alt="" class="icon-inline" />
+                  <a
+                    href="https://www.understood.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Understood.org — recursos para el aprendizaje y la atención
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- 4. FAQ -->
+          <details>
+            <summary>
+              <img src="icons/question.svg" alt="" class="icon" />
+              Preguntas frecuentes sobre el TDAH
+            </summary>
+            <div class="content">
+              <ul>
+                <li>
+                  <img
+                    src="icons/question-mark.svg"
+                    alt=""
+                    class="icon-inline"
+                  />
+                  <span
+                    ><strong>¿Qué es el TDAH?</strong> Es un trastorno del
+                    neurodesarrollo que afecta la capacidad de las personas para
+                    concentrarse y controlar impulsos.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/child.svg" alt="" class="icon-inline" />
+                  <span
+                    ><strong>¿El TDAH solo afecta a niños?</strong> No. El TDAH
+                    puede continuar afectando a los adultos, aunque los síntomas
+                    pueden manifestarse de manera diferente.</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/diagnostic.svg" alt="" class="icon-inline" />
+                  <span
+                    ><strong>¿Cómo se puede diagnosticar el TDAH?</strong> El
+                    diagnóstico debe ser realizado por un profesional de la
+                    salud mental mediante evaluaciones clínicas y
+                    cuestionarios.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </details>
+        </div>
+        <!-- /accordion -->
+      </div>
+    </section>
+
+    <!-- =============================================
+     CTA STRIP
+============================================= -->
+    <div class="tdah-cta-strip">
+      <div class="tdah-cta-strip__inner">
+        <div class="tdah-cta-strip__text">
+          <h3>¿Tu hijo presenta señales de TDAH?</h3>
+          <p>
+            Nuestro equipo puede orientarte y acompañarte con atención
+            especializada y un plan de intervención personalizado.
+          </p>
+        </div>
+        <div class="tdah-cta-strip__btns">
+          <a href="contacto.html" class="btn btn-gold">
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 010 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"
+              />
+            </svg>
+            Contáctanos
+          </a>
+          <a href="servicios.html" class="btn btn-white-outline"
+            >Ver servicios</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- =============================================
+     CTA FINAL
+============================================= -->
+    <section class="cta-section">
+      <div class="cta-box">
+        <span class="cta-icon">💛</span>
+        <h2>¿Quieres saber más sobre el neurodesarrollo?</h2>
+        <p>
+          Explora nuestros servicios especializados o ponte en contacto con
+          nosotros. Estamos aquí para acompañarte en cada paso del camino.
+        </p>
+        <div class="cta-btns">
+          <a href="servicios.html" class="btn btn-primary">
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 8v4l3 3" />
+            </svg>
+            Ver nuestros servicios
+          </a>
+          <a href="donar.html" class="btn btn-outline">
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
+              />
+            </svg>
+            Apoyar nuestra causa
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPONSOR CAROUSEL -->
+    <section class="sponsors-section">
+      <div class="sponsors-header">
+        <span class="sponsors-eyebrow">Comunidad & Apoyo</span>
+        <div class="sponsors-gold-bar"></div>
+        <h2 class="sponsors-title">Nuestros Aliados Destacados</h2>
+        <p class="sponsors-subtitle">
+          Instituciones, empresas y personas que creen en la inclusión y hacen
+          posible nuestra labor en Villahermosa.
+        </p>
+      </div>
+
+      <div class="sponsors-track-wrap">
+        <div class="sponsors-track">
+          <img src="img/logos/donantes_00.png" alt="Aliado" />
+          <img src="img/logos/donantes_01.png" alt="Aliado" />
+          <img src="img/logos/donantes_02.png" alt="Aliado" />
+          <img src="img/logos/donantes_03.png" alt="Aliado" />
+          <img src="img/logos/donantes_04.png" alt="Aliado" />
+          <img src="img/logos/donantes_05.png" alt="Aliado" />
+          <img src="img/logos/donantes_06.png" alt="Aliado" />
+          <img src="img/logos/donantes_07.png" alt="Aliado" />
+          <img src="img/logos/donantes_08.png" alt="Aliado" />
+          <img src="img/logos/donantes_09.png" alt="Aliado" />
+          <img src="img/logos/donantes_10.png" alt="Aliado" />
+          <img src="img/logos/donantes_11.png" alt="Aliado" />
+          <img src="img/logos/donantes_12.png" alt="Aliado" />
+          <img src="img/logos/donantes_13.png" alt="Aliado" />
+          <img src="img/logos/donantes_14.png" alt="Aliado" />
+          <img src="img/logos/donantes_15.png" alt="Aliado" />
+          <img src="img/logos/donantes_16.png" alt="Aliado" />
+          <img src="img/logos/donantes_17.png" alt="Aliado" />
+          <img src="img/logos/donantes_18.png" alt="Aliado" />
+          <img src="img/logos/donantes_19.png" alt="Aliado" />
+          <img src="img/logos/donantes_20.png" alt="Aliado" />
+          <img src="img/logos/donantes_21.png" alt="Aliado" />
+          <img src="img/logos/donantes_22.png" alt="Aliado" />
+          <img src="img/logos/donantes_23.png" alt="Aliado" />
+          <img src="img/logos/donantes_24.png" alt="Aliado" />
+
+          <!-- Duplicado para loop infinito -->
+          <img src="img/logos/donantes_00.png" alt="Aliado" />
+          <img src="img/logos/donantes_01.png" alt="Aliado" />
+          <img src="img/logos/donantes_02.png" alt="Aliado" />
+          <img src="img/logos/donantes_03.png" alt="Aliado" />
+          <img src="img/logos/donantes_04.png" alt="Aliado" />
+          <img src="img/logos/donantes_05.png" alt="Aliado" />
+          <img src="img/logos/donantes_06.png" alt="Aliado" />
+          <img src="img/logos/donantes_07.png" alt="Aliado" />
+          <img src="img/logos/donantes_08.png" alt="Aliado" />
+          <img src="img/logos/donantes_09.png" alt="Aliado" />
+          <img src="img/logos/donantes_10.png" alt="Aliado" />
+          <img src="img/logos/donantes_11.png" alt="Aliado" />
+          <img src="img/logos/donantes_12.png" alt="Aliado" />
+          <img src="img/logos/donantes_13.png" alt="Aliado" />
+          <img src="img/logos/donantes_14.png" alt="Aliado" />
+          <img src="img/logos/donantes_15.png" alt="Aliado" />
+          <img src="img/logos/donantes_16.png" alt="Aliado" />
+          <img src="img/logos/donantes_17.png" alt="Aliado" />
+          <img src="img/logos/donantes_18.png" alt="Aliado" />
+          <img src="img/logos/donantes_19.png" alt="Aliado" />
+          <img src="img/logos/donantes_20.png" alt="Aliado" />
+          <img src="img/logos/donantes_21.png" alt="Aliado" />
+          <img src="img/logos/donantes_22.png" alt="Aliado" />
+          <img src="img/logos/donantes_23.png" alt="Aliado" />
+          <img src="img/logos/donantes_24.png" alt="Aliado" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER GLOBAL ================= -->
+    <footer role="contentinfo">
+      <!-- Wrapper principal del footer -->
+      <div class="footer-container">
+        <!-- ======== COLUMNA: ENLACES DE NAVEGACIÓN ======== -->
+        <nav class="footer-links" aria-label="Enlaces rápidos del sitio">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="que-hacemos.html">Qué Hacemos</a></li>
+            <li><a href="que-es-autismo.html">Qué es el Autismo</a></li>
+            <li><a href="donar.html">Donar</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+
+        <!-- ======== COLUMNA: REDES SOCIALES ======== -->
+        <section class="footer-social" aria-label="Redes sociales">
+          <h3>Síguenos</h3>
+
+          <!-- Iconos de redes -->
+          <div class="social-icons">
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/incluyemeentumundoac/"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar Facebook"
+            >
+              <img src="icons/facebook.svg" alt="" />
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/incluyemeentumundo/"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar Instagram"
+            >
+              <img src="icons/instagram.svg" alt="" />
+            </a>
+
+            <!-- X (Twitter) -->
+            <a
+              href="https://x.com/incluyemetmundo"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar perfil en X"
+            >
+              <img src="icons/x.svg" alt="" />
+            </a>
+
+            <!-- YouTube -->
+            <a
+              href="https://www.youtube.com/@incluyeme/videos"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Ver canal de YouTube"
+            >
+              <img src="icons/youtube.svg" alt="" />
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/incluyemeentumundo/"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Visitar LinkedIn"
+            >
+              <img src="icons/linkedin.svg" alt="" />
+            </a>
+
+            <!-- TikTok -->
+            <a
+              href="https://www.tiktok.com/@incluyemeentumundo"
+              target="_blank"
+              rel="noopener noreferrer external"
+              aria-label="Ver contenido en TikTok"
+            >
+              <img src="icons/tiktok.svg" alt="" />
+            </a>
+          </div>
+        </section>
+
+        <!-- ======== COLUMNA: CONTACTO DIRECTO ======== -->
+        <section class="footer-contact" aria-label="Contacto directo">
+          <h3>Contacto</h3>
+
+          <div class="contact-icons">
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/529931494913"
+              target="_blank"
+              rel="noopener noreferrer external"
+              class="contact-item"
+              aria-label="Enviar mensaje por WhatsApp"
+            >
+              <span class="icon-wrap">
+                <img src="icons/whatsapp.svg" alt="" />
+              </span>
+              WhatsApp
+            </a>
+
+            <!-- Correo -->
+            <a
+              href="mailto:contacto@incluyemeentumundo.org"
+              class="contact-item"
+              aria-label="Enviar correo electrónico"
+            >
+              <span class="icon-wrap">
+                <img src="icons/email.svg" alt="" />
+              </span>
+              Correo electrónico
+            </a>
+
+            <!-- Ubicación / ruta -->
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=17.9842652,-92.9225942"
+              target="_blank"
+              rel="noopener noreferrer external"
+              class="contact-item"
+              aria-label="Abrir ruta en Google Maps"
+            >
+              <span class="icon-wrap">
+                <img src="icons/googlemaps.svg" alt="" />
+              </span>
+              Cómo llegar
+            </a>
+          </div>
+        </section>
+
+        <!-- ======== COLUMNA: INFORMACIÓN LEGAL ======== -->
+        <section class="footer-legal-col" aria-label="Información legal">
+          <h3>Legal</h3>
+
+          <ul>
+            <li><a href="#" class="no-click">Transparencia</a></li>
+            <li><a href="#" class="no-click">Términos y Condiciones</a></li>
+            <li><a href="#" class="no-click">Política de Cookies</a></li>
+            <li><a href="#" class="no-click">Aviso de Privacidad</a></li>
+          </ul>
+
+          <!-- CTA: Donación -->
+          <a
+            href="donar.html"
+            class="footer-donate-btn"
+            aria-label="Donar ahora"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 21.593c-.425-.396-8.993-7.677-8.993-12.03A6.007 6.007 0 0 1 12 3.564a6.007 6.007 0 0 1 8.993 6C20.993 13.916 12.425 21.197 12 21.593z"
+              />
+            </svg>
+            Donar ahora
+          </a>
+        </section>
+
+        <!-- ======== LOGO INSTITUCIONAL ======== -->
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Logo de Inclúyeme en tu Mundo" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ======== BARRA INFERIOR (COPYRIGHT) ======== -->
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Inclúyeme en tu Mundo A.C. Todos los derechos reservados.
+        </p>
+        <p>
+          Desarrollado por el equipo de Inclúyeme en tu Mundo en colaboración
+          con la comunidad.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
